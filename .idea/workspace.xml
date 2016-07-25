@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d804fbc2-24b6-47cd-bf8c-542914cbc3dd" name="Default" comment="" />
+    <list default="true" id="d804fbc2-24b6-47cd-bf8c-542914cbc3dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+    </list>
     <ignored path="React-vs-Angular-2-integration-with-Rails-5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -58,11 +60,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="347">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="e#32#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -86,6 +110,8 @@
         <option value="$PROJECT_DIR$/typings.json" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/app/home.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/home.component.html" />
       </list>
     </option>
   </component>
@@ -157,6 +183,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="React-vs-Angular-2-integration-with-Rails-5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="React-vs-Angular-2-integration-with-Rails-5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,12 +510,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469466302045</updated>
-      <workItem from="1469466303254" duration="2193000" />
+      <workItem from="1469466303254" duration="2701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2193000" />
+    <option name="totallyTimeSpent" value="2701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="570" y="23" width="710" height="773" extended-state="0" />
@@ -590,8 +634,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="347">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#32#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding />
         </state>
       </provider>

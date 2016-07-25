@@ -15,9 +15,17 @@
 <body>
 <script>
     System.config({
-        map: {'app': '/app',},
-        packages: {'app': {format: 'register', defaultExtension: 'js'}}
-    }); // and to finish, let's boot the app! System.import('app/boot');
+        map:
+          {'app': '/app',},
+        packages:
+          {'app': {
+              format: 'register',
+              defaultExtension: 'js'
+          }
+          }
+    });
+    // and to finish, let's boot the app!
+    System.import('app/boot');
 
 </script>
 <base href="/">
