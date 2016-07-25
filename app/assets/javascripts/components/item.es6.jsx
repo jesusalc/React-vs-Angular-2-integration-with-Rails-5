@@ -5,6 +5,10 @@ class Item extends React.Component {
         this.state = {item: ''};
     };
 
+    componentDidMount() {
+        $.getJSON('/api', (response) => { this.setState({ item: response.some }) });
+    }
+
     render () {
         return (
             <div>
