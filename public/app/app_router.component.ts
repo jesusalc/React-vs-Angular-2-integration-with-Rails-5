@@ -1,4 +1,5 @@
 //public/app/app_router.component.ts
+
 import {Component} from 'angular2/core'
 import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router'
 import {HomeComponent} from './home.component'
@@ -9,9 +10,7 @@ import {HomeComponent} from './home.component'
     directives: [ROUTER_DIRECTIVES],
     styles:[]
 })
-
 @RouteConfig([
     { path: '/', name: 'Home', component: HomeComponent }
 ])
-
 export class AppRouterComponent {}
