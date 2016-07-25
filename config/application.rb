@@ -28,5 +28,7 @@ module Sampleapp
 
     #...Rack-Cors Configuration - end
 
+    # Explicitly add the 'node_modules' directory
+    config.assets.paths << Rails.root.join('node_modules')
   end
 end
